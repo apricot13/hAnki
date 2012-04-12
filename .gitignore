@@ -21,3 +21,5 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+.project
