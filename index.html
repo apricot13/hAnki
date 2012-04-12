@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Flash Cards</title>
+        <link rel="stylesheet" href="app/css/style.css" />
+    </head>
+    <body>
+        <div id="cards"></div>
+<script id="cardTemplate" type="text/template">
+    <%= id %> 
+<%= deck_id %>
+<%= side_1 %>
+<%= side_2 %>
+<%= notes %>
+<%= created %>
+
+</script>
+        <script src="app/lib/jquery-1.7.2.min.js"></script>
+        <script src="app/lib/json2.js"></script>
+        <script src="app/lib/underscore-min.js"></script>
+        <script src="app/lib/backbone.js"></script>
+        <script src="app/app.js"></script>
+    </body>
+</html>
