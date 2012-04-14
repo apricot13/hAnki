@@ -1,26 +1,24 @@
 <!DOCTYPE html>
- 
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Flash Cards</title>
-        <link rel="stylesheet" href="app/css/style.css" />
-    </head>
-    <body>
-        <div id="cards"></div>
-<script id="cardTemplate" type="text/template">
-    <%= id %> 
-<%= deck_id %>
-<%= side_1 %>
-<%= side_2 %>
-<%= notes %>
-<%= created %>
+<html class="ui-mobile-rendering">
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.0.1.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
 
-</script>
-        <script src="app/lib/jquery-1.7.2.min.js"></script>
-        <script src="app/lib/json2.js"></script>
-        <script src="app/lib/underscore-min.js"></script>
-        <script src="app/lib/backbone.js"></script>
-        <script src="app/app.js"></script>
-    </body>
+    <!-- The Scripts -->
+    <script src="lib/jquery-1.7.1.min.js"></script>
+    <script src="js/jqm-config.js"></script>
+    <script src="lib/jquery.mobile-1.0.1.min.js"></script>
+    <script src="lib/underscore-min.js"></script>
+    <script src="lib/backbone-min.js"></script>
+    <script src="js/models/deckmodel.js"></script>
+    <script src="js/views/decklist.js"></script>
+    <script src="js/views/deckdetails.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body></body>
+
 </html>
